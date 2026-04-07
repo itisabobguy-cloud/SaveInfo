@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileForPersonalInfo.txt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="notepad">
+        <div class="menubar">
+            <div class="menu-left">
+                <span class="menu-item">File</span>
+                <span class="menu-item">Edit</span>
+                <span class="menu-item">View</span>
+            </div>
+        </div>
+        
+        <div class="editor-container">
+            <textarea id="content" spellcheck="false"></textarea>
+        </div>
+        
+        <div class="statusbar">
+            <span id="statusText">Ready</span>
+            <span id="charCount">0 characters</span>
+        </div>
+
+        <button id="saveBtn" class="save-btn">Save</button>
+    </div>
+
+    <script src="app.js?v=6"></script>
+</body>
+</html>

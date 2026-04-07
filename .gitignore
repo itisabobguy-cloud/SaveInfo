@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kiro specs (optional - remove if you want to include specs)
+.kiro/
+
+# Old server file
+server.js
+
+# Logs
+*.log
+npm-debug.log*
