@@ -7,7 +7,7 @@ A simple browser-based notepad app for storing personal information. Only keeps 
 - Notepad-style interface
 - Template with common fields (Name, Password, Birth, Email, etc.)
 - Only one entry at a time
-- Auto-saves to local text file
+- Saves to a local text file (`fileForPersonalInfo.txt`) on button click
 - Clean, minimal design
 
 ## Setup
@@ -27,12 +27,11 @@ npm start
 http://localhost:3000
 ```
 
-## Configuration
+## How It Works
 
-Edit `app-server.js` line 8 to change the file path:
-```javascript
-const FILE_PATH = 'C:\\Users\\YOUR_USERNAME\\path\\to\\file.txt';
-```
+- The server saves your data to `fileForPersonalInfo.txt` in the project folder
+- Each save replaces the previous entry (only one entry kept at a time)
+- On startup, the server loads the last saved entry back into the editor
 
 ## Usage
 
