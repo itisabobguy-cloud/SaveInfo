@@ -5,7 +5,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
-const FILE_PATH = 'C:\\Users\\mykol\\Music\\Mano_Projektai\\fileForPersonalInfo.txt';
+const FILE_PATH = path.join(__dirname, 'fileForPersonalInfo.txt');
 
 app.use(cors());
 app.use(express.json());

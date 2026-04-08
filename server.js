@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // CONFIGURATION - Change these values
-const FILE_PATH = 'C:\\Users\\mykol\\Music\\Mano_Projektai\\fileForPersonalInfo.txt';
+const FILE_PATH = path.join(__dirname, 'fileForPersonalInfo.txt');
 const OWNER_PASSWORD = 'mypassword123'; // Change this!
 
 app.use(cors());

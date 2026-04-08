@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Data file (personal info)
+fileForPersonalInfo.txt
+
 # OS files
 .DS_Store
 Thumbs.db
